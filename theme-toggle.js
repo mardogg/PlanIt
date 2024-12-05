@@ -1,3 +1,5 @@
+// DEVELOPER: Marwa Monsour, IS117-001, Fall 2024
+
 document.addEventListener("DOMContentLoaded", function() {
     const themeToggleButton = document.getElementById("theme-toggle");
     const body = document.body;
