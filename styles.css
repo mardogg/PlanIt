@@ -21,19 +21,18 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: #007bff; /* Blue link color */
-    font-size: 18px; /* 1.1rem -> 18px */
+    color: #008080; /* Teal link color */
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: #0056b3; /* Darker blue on hover or active */
+    color: #006666; /* Darker teal on hover or active */
     font-weight: bold;
 }
 
 /* Homepage Hero Section */
 .container-fluid.bg-primary {
-    background-color: #007bff; /* Blue background */
+    background-color: #008080; /* Teal background */
     color: white; /* White text */
     text-align: center;
     padding: 32px 16px; /* 2rem 1rem -> 32px 16px */
@@ -92,7 +91,7 @@ body {
 }
 
 #calendar td.selected {
-    background-color: #007bff; /* Blue for selected day */
+    background-color: #008080; /* Teal for selected day */
     color: white;
     font-weight: bold;
 }
@@ -104,13 +103,13 @@ form .form-label {
 }
 
 form .btn-primary {
-    background-color: #007bff;
+    background-color: #008080; /* Teal button */
     border: none;
     font-size: 16px; /* 1rem -> 16px */
 }
 
 form .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #006666; /* Darker teal on hover */
 }
 
 /* Footer */
