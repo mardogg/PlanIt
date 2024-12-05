@@ -1,31 +1,31 @@
 /* DEVELOPER: Marwa Monsour, IS117-001, Fall 2024 */
 
-/* Apply the Caveat font */
+
 body {
     font-family: 'Caveat', cursive;
-    background-color: #f8f9fa; /* Light background */
-    color: #333; /* Dark text color */
+    background-color: #f8f9fa; 
+    color: #333; 
 }
 
-/* Light Mode (default) */
+
 body {
     background-color: #f8f9fa;
     color: #333;
 }
 
-/* Dark Mode */
+
 body.dark-mode {
     background-color: #333;
     color: #f8f9fa;
 }
 
-/* Navbar */
+
 .navbar {
-    background-color: #007bff; /* Bootstrap blue */
+    background-color: #007bff; 
 }
 
 body.dark-mode .navbar {
-    background-color: #444; /* Dark navbar background */
+    background-color: #444;
 }
 
 .navbar-nav .nav-link {
@@ -36,12 +36,11 @@ body.dark-mode .navbar-nav .nav-link {
     color: #f8f9fa;
 }
 
-/* Navbar Hover Effects */
-.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
-    color: #ffc107; /* Highlight active and hovered links */
-}
 
-/* Light/Dark Mode Toggle */
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #ffc107;
+
+
 #theme-toggle {
     position: absolute;
     top: 10px;
@@ -60,9 +59,9 @@ body.dark-mode #theme-toggle .fas {
     color: #333;
 }
 
-/* Hero Section */
+
 .container-fluid.bg-primary {
-    background-color: #008080; /* Custom teal background for hero section */
+    background-color: #008080; 
 }
 
 .container-fluid.bg-primary h1, .container-fluid.bg-primary p {
@@ -70,7 +69,7 @@ body.dark-mode #theme-toggle .fas {
     color: white;
 }
 
-/* Card Styles */
+
 .card {
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -78,7 +77,7 @@ body.dark-mode #theme-toggle .fas {
 }
 
 .card:hover {
-    transform: scale(1.05); /* Slight zoom effect on hover */
+    transform: scale(1.05); 
 }
 
 .card-body {
@@ -93,7 +92,7 @@ body.dark-mode #theme-toggle .fas {
     font-size: 1rem;
 }
 
-/* Task List Styles */
+
 #task-list {
     padding-left: 0;
 }
@@ -111,7 +110,7 @@ button.btn-sm {
     font-size: 0.8rem;
 }
 
-/* Footer */
+
 footer {
     background-color: #f8f9fa;
     color: #333;
@@ -120,11 +119,11 @@ footer {
 }
 
 body.dark-mode footer {
-    background-color: #444; /* Dark footer background */
-    color: #f8f9fa; /* Light footer text */
+    background-color: #444; 
+    color: #f8f9fa; 
 }
 
-/* Features Section */
+
 .row {
     display: flex;
     justify-content: center;
@@ -134,7 +133,24 @@ body.dark-mode footer {
     margin-bottom: 20px;
 }
 
-/* Media Queries for Responsiveness */
+
+#calendar {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+#calendar td {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#calendar td:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer;
+}
+
+
 @media (max-width: 768px) {
     .container-fluid.bg-primary h1 {
         font-size: 2.5rem;
